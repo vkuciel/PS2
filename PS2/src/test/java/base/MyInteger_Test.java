@@ -27,8 +27,16 @@ public class MyInteger_Test {
 	}
 
 	@Test
-	public void test() {
+	public void testEven() {
 		assertTrue(1==1);
+	}
+	
+	public void testOdd() {
+		assertTrue(2==2);
+	}
+	
+	public void testPrime() {
+		assertTrue(5==5);
 	}
 
 }
